@@ -23,21 +23,25 @@
 </head>
 
 <body>
+
 <!--[if lte IE 9]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
 
 
-<section class="bg-hard-light">
+<!--Top page message-->
+<section class="bg-hard-light d-none d-md-block">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12 text-center p-2 text-muted">
-                Η Βραδινή πάντα κοντά σας με τα τελευταία νέα απο την Ελλάδα και τον κόσμο!
+            <div class="col-12 text-center p-2 text-muted small">
+                A free Bootstrap HTML template for your news site. Made with love by <a href="https://www.cookforweb.com/" class="text-dark">CookForWeb</a>
             </div>
         </div>
     </div>
 </section>
 
+
+<!--Logo section-->
 <header class="header py-1">
     <div class="container">
         <div class="row justify-content-between align-items-center">
@@ -45,68 +49,71 @@
                 <div class="row no-gutters">
                     <div class="col-6 col-lg-12">
                         <div class="font-weight-bold">
-                            <i class="fa fa-calendar-o" aria-hidden="true"></i> Παρασκευή 15 Σεπ 2018
+                            <i class="fa fa-calendar-o" aria-hidden="true"></i> Friday 15 Sep 2018
                         </div>
                     </div>
                     <div class="col-6 col-lg-12">
                         <div class="text-right text-lg-left">
-                            Εκδότης: Σταύρος Κων. Μήτσης
+                            Publisher: CookForWeb
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-3 text-center">
+            <div class="col-12 col-lg-6 text-center">
                 <a href="#3">
                     <img src="img/logo.svg" id="logo" />
                 </a>
             </div>
-            <div class="col-12 col-lg-3 text-lg-right">
-                Θάρσει. Λέγων τ' αληθές ου σφαλεί ποτέ.
+            <div class="col-12 col-lg-3 text-center text-lg-right">
+                Newspaper Bootstrap HTML Template
             </div>
         </div>
     </div>
 </header>
 
 
+<!--Navigation-->
 <section class="section-navigation mb-4">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                ΠΛΟΗΓΗΣΗ
+            <button class="navbar-toggler font-weight-bold bg-dark w-100 text-white rounded-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                MENU
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Αρχική <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Ελλάδα</a>
+                        <a class="nav-link" href="#">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Πολιτική</a>
+                        <a class="nav-link" href="#">Politics</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Οικονομία</a>
+                        <a class="nav-link" href="#">Economy</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Επιχειρήσεις</a>
+                        <a class="nav-link" href="#">Business</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Πολιτισμός</a>
+                        <a class="nav-link" href="#">World</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Αθλητισμός</a>
+                        <a class="nav-link" href="#">Sports</a>
                     </li>
-                    <li class="nav-item dropdown d-none">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
+                            More
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Travel</a>
+                            <a class="dropdown-item" href="#">Food</a>
+                            <a class="dropdown-item" href="#">Cars</a>
+                            <a class="dropdown-item" href="#">Real Estate</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="#">Connect</a>
                         </div>
                     </li>
                     <li class="nav-item d-none">
@@ -124,10 +131,6 @@
 
 
 
-
-
-
-
 <section class="section section-article">
     <div class="inside">
         <div class="container">
@@ -135,14 +138,14 @@
                 <div class="col-lg-8 col-xl-9">
 
                     <div class="article-breadcrumbs bg-hard-light font-alegreya font-weight-bold p-2 small mb-2">
-                        ΠΟΛΙΤΙΚΗ > ΕΚΛΟΓΕΣ
+                        POLITICS > NEWS
                     </div>
                     <div class="article-title">
-                        <h1>Μητσοτάκης στο CNBC: Σε έναν μήνα από τη νίκη στις εκλογές θα μειώσω τους φόρους</h1>
+                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
                     </div>
 
                     <div class="article-date">
-                        <i class="fa fa-clock-o" aria-hidden="true"></i> Δημοσιεύτηκε: 2 ώρες πριν
+                        <i class="fa fa-clock-o" aria-hidden="true"></i> Published: 2 hours ago
                     </div>
 
                     <div class="article-media mb-4">
@@ -154,20 +157,21 @@
                         <div class="col-11">
                             <div class="article-content ">
                                 <p>
-                                    Για το σχέδιό του να μειώσει άμεσα τους φόρους για τις εγχώριες και τις ξένες επιχειρήσεις, αλλά και να μειώσει το πρωτογενές πλεόνασμα στο οποίο συμφώνησε ο Αλέξης Τσίπρας, αναφέρθηκε ο πρόεδρος της Νέας Δημοκρατίας Κυριάκος Μητσοτάκης σε συνέντευξή του στο αμερικανικό δίκτυο CNBC.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </p>
                                 <p>
-                                    Μήνυμα εντός και εκτός Ελλάδας ότι η φορολογική μεταρρύθμιση που θα ελαφρύνει τα βάρη για τους πολίτες και τις επιχειρήσεις θα γίνει νόμος του κράτος ήδη μέσα στον πρώτο μήνα της νέας διακυβέρνησης στέλνει ο πρόεδρος της Νέας Δημοκρατίας Κυριάκος Μητσοτάκης.
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
                                 </p>
+                                <h3>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis </h3>
                                 <p>
-                                    Στη συνέντευξη που παραχώρησε στο παγκόσμιο τηλεοπτικό δίκτυο CNBC και η οποία μεταδίδεται σε όλες τις χώρες του κόσμου από τα ξημερώματα της Τετάρτης, ο κ. Μητσοτάκης τονίζει: «Μια ριζική και ολοκληρωμένη φορολογική μεταρρύθμιση θα είναι ένα από τα πρώτα μέτρα της επόμενης κυβέρνησης, ήδη από τον πρώτο μήνα. Είναι καιρός να στείλουμε ένα πολύ σαφές μήνυμα στους πολίτες, αλλά και στις διεθνείς αγορές ότι δεσμευόμαστε για ένα πρόγραμμα ριζικών μεταρρυθμίσεων, ότι θέλουμε να απελευθερώσουμε τις δυνάμεις της επιχειρηματικότητας στην Ελλάδα και να στηρίξουμε τις ιδιωτικές επενδύσεις ενισχύοντας παράλληλα την κοινωνική συνοχή».
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </p>
                                 <div class="incontent-articles mb-4">
                                     <div class="row">
                                         <div class="col-12 ">
                                             <div class="row no-gutters home-top-headlines p-3 mb-3 mb-sm-0">
                                                 <div class="col-12 mb-3 border-0">
-                                                    <div class="incontent-header border-bottom pb-2">Διαβάζονται τώρα</div>
+                                                    <div class="incontent-header border-bottom pb-2">Live</div>
                                                 </div>
                                                 <div class="col-12 mb-3 border-0">
                                                     <div class="row align-items-center no-gutters">
@@ -175,9 +179,9 @@
                                                             <img class="float-left mr-2" src="img/posts/thumbnail-1.jpg" width="50">
                                                         </div>
                                                         <div class="col">
-                                                            <div class="font-weight-bold">Μάχη μέχρις εσχάτων για την καρέκλα του Γιουνκέρ</div>
+                                                            <div class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </div>
                                                             <div class="post-date">
-                                                                <i class="fa fa-clock-o" aria-hidden="true"></i> 6 ώρες πριν
+                                                                <i class="fa fa-clock-o" aria-hidden="true"></i> 6 hours ago
                                                             </div>
                                                         </div>
                                                     </div>
@@ -188,9 +192,9 @@
                                                             <img class="float-left mr-2" src="img/posts/thumbnail-2.jpg" width="50">
                                                         </div>
                                                         <div class="col">
-                                                            <div class="font-weight-bold">Δ. Τζανακόπουλος: Η κυβέρνηση θα επιτύχει τη μη περικοπή...</div>
+                                                            <div class="font-weight-bold">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</div>
                                                             <div class="post-date">
-                                                                <i class="fa fa-clock-o" aria-hidden="true"></i> 9 ώρες πριν
+                                                                <i class="fa fa-clock-o" aria-hidden="true"></i> 9 hours ago
                                                             </div>
                                                         </div>
                                                     </div>
@@ -201,9 +205,9 @@
                                                             <img class="float-left mr-2" src="img/posts/thumbnail-3.jpg" width="50">
                                                         </div>
                                                         <div class="col">
-                                                            <div class="font-weight-bold">Ο Γιουνκέρ «γκρεμίζει» τα όνειρα της κυβέρνησης περί...</div>
+                                                            <div class="font-weight-bold">Sed ut perspiciatis unde omnis iste natus error sit voluptatem </div>
                                                             <div class="post-date">
-                                                                <i class="fa fa-clock-o" aria-hidden="true"></i> 9 ώρες πριν
+                                                                <i class="fa fa-clock-o" aria-hidden="true"></i> 9 hours ago
                                                             </div>
                                                         </div>
                                                     </div>
@@ -213,45 +217,24 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <p>
-                                    Στην εφ’ όλης της ύλης συνέντευξή του στη δημοσιογράφο Σίλβια Αμάρο, ο πρόεδρος της Νέας Δημοκρατίας προαναγγέλλει επίσης ότι μετά από τον πρώτο χρόνο διακυβέρνησης της ΝΔ, θα διαπραγματευτεί με τους Ευρωπαίους εταίρους μας τη μείωση των στόχων για τα πρωτογενή πλεονάσματα ώστε το 80% του επιπλέον δημοσιονομικού χώρου να κατευθυνθεί σε ακόμη μεγαλύτερες μειώσεις φόρων και ασφαλιστικών εισφορών. Μεταξύ άλλων σημειώνει ότι «τα τελευταία δέκα χρόνια οι Έλληνες υπέφεραν πολύ» ότι έχουν επιβαρυνθεί από την υπερβολική λιτότητα του ΣΥΡΙΖΑ και ότι οι «επόμενες εκλογές θα αφορούν την οικονομία, τις θέσεις εργασίας και το διαθέσιμο εισόδημα».
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                 </p>
                                 <p>
-                                    Το CNBC επέλεξε να προβάλει το πρόγραμμα της ΝΔ, καθώς όπως και η ίδια η δημοσιογράφος αναφέρει -επικαλούμενη τις δημοσκοπήσεις- θα είναι πιθανότατα η επόμενη κυβέρνηση της Ελλάδας.
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
                                 </p>
-
+                                <h3>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis </h3>
                                 <p>
-                                    Ας μιλήσουμε για το πρωτογενές πλεόνασμα: Η Ελλάδα κατόρθωσε να υπερκαλύψει τους στόχους. Δεν στέλνει αυτό ένα θετικό μήνυμα;
-                                </p>
-                                <p>
-                                    Πιστεύω ότι στέλνει το λάθος μήνυμα, υπό την έννοια ότι έχουμε επιβαρυνθεί με υπερβολική λιτότητα. Ο λόγος που έχουμε υπερβεί τους στόχους είναι ότι η κυβέρνηση υπερφορολόγησε τη μεσαία τάξη γιατί θέλησε να δημιουργήσει μεγαλύτερο πλεόνασμα ακόμη κι από αυτό που της ζητήθηκε, προκειμένου να το χρησιμοποιήσει για προεκλογικές παροχές. Αυτή όμως είναι μια εντελώς λανθασμένη πολιτική. Πρέπει να επιμείνουμε στους στόχους μας, αλλά όταν προκύπτει δημοσιονομικός χώρος αυτό που πρέπει να κάνουμε είναι να μειώνουμε τους φόρους.
-                                    Πιστεύω δε ότι η μείωση των φόρων θα αυξήσει και τη φορολογική συμμόρφωση σε μια οικονομία στην οποία παρατηρούνται τάσεις φοροδιαφυγής.
-                                    Ο κ. Τσίπρας έχει συμφωνήσει σε πρωτογενή πλεονάσματα ύψους 3,5% του ΑΕΠ μέχρι το 2022. Θεωρώ τον στόχο αυτόν υπερβολικά αυστηρό. Έχω εξαρχής δηλώσει ότι θα σεβαστώ τις συμφωνίες που έχει κάνει η παρούσα κυβέρνηση. Ωστόσο έχω επίσης καταστήσει σαφές στους ευρωπαίους εταίρους μας, ότι εφόσον κατορθώσουμε να ολοκληρώσουμε πραγματικές μεταρρυθμίσεις, θα πρέπει να λάβουμε ως επιβράβευση τη μείωση των στόχων για πρωτογενή πλεονάσματα. Και αυτό πρέπει να γίνει ήδη από το 2021 και το 2022. Δυστυχώς η κατάρτιση του προϋπολογισμού για το 2020 είναι πολύ κοντά για να αρχίσει να ισχύει κάποια αλλαγή νωρίτερα. Αυτό επομένως που ζητώ είναι πολύ συγκεκριμένο: δώστε μου 12 μήνες να πείσω τους πιστωτές μας και τις διεθνείς αγορές, ότι πραγματικά εννοούμε όσα λέμε. Ότι η Ελλάδα μπορεί στ’ αλήθεια να αλλάξει και να αποκτήσει η ίδια την ιδιοκτησία του μεταρρυθμιστικού της προγράμματος, ώστε οι μεταρρυθμίσεις που κάνουμε να μην γίνονται, επειδή κάποιος μας τις επιβάλλει, αλλά επειδή πιστεύουμε στις μεταρρυθμίσεις που εμείς οι ίδιοι έχουμε προτείνει. Μεταρρυθμίσεις που θα δώσουν ώθηση στην ανάπτυξη αλλά θα διατηρούν παράλληλα το κοινωνικό τους χαρακτήρα. Εφόσον, λοιπόν, συμβούν όλα αυτά, θα κάνουμε σε 12 μήνες μια συζήτηση για την επαναδιαπραγμάτευση των στόχων για τα πρωτογενή πλεονάσματα.
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
                                 </p>
                                 <p>
-                                    Ακριβώς αυτό ήθελα να σας ρωτήσω. Εννοείτε δηλαδή ότι τον πρώτο σας χρόνο στην κυβέρνηση θα ζητήσετε την επαναδιαπραγμάτευση του στόχου για πρωτογενές πλεόνασμα 3,5%;
-                                </p>
-                                <p>
-                                    Θα το κάνω με πνεύμα καλής πίστης. Θα μιλήσω με τους Ευρωπαίους πιστωτές μας.
-                                </p>
-                                <p>
-                                    Πώς σκοπεύετε να προσεγγίσετε αυτές τις συζητήσεις;
-                                </p>
-                                <p>
-                                    Με καλή πίστη και πάντοτε με πνεύμα συνεργασίας. Εδώ δεν πρόκειται για αντιπαράθεση. Και τελικά αν έχουμε ένα πρωτογενές πλεόνασμα το 2021 για παράδειγμα στο 3% ή στο 2,5%, αυτό δεν θα διαφοροποιήσει σημαντικά την ευρύτερη βιωσιμότητα του χρέους μας. Αλλά ακόμη και σε συμβολικό επίπεδο θα ήταν μια ανταμοιβή για μια χώρα που υλοποιεί ουσιαστικές μεταρρυθμίσεις. Επίσης, δέσμευσή μου ότι όποιος κι αν είναι ο δημοσιονομικός χώρος που μπορώ να διαπραγματευτώ, το 80% θα κατευθυνθεί σε μειώσεις φόρων.
-                                </p>
-                                <p>
-                                    Ερωτηθείς τέλος για την πρόσφατη έκδοση ομολόγου από την Ελλάδα αλλά και για το ενδιαφέρον που αρχίζουν να δείχνουν θεσμικοί επενδυτές ο κ. Μητσοτάκης αναφέρει:
-                                </p>
-                                <p>
-                                    «Προφανώς και μας ενδιαφέρει να προσελκύσουμε τους μακροπρόθεσμους επενδυτές. Θα σας έλεγα μάλιστα ότι καθώς πλησιάζουμε στις εκλογές, οι αγορές θα αρχίσουν να λαμβάνουν υπόψιν τους και την πιθανή πολιτική αλλαγή. Εάν οι αγορές μάλιστα πεισθούν από την προοπτική που τους παρουσιάζουμε είναι πολύ πιθανό ότι τα πράγματα θα αρχίσουν να βελτιώνονται ήδη από τώρα ενόψει των εκλογών. Και αυτό θα είναι πολύ καλό για την Ελλάδα. Ουδέποτε υπήρξα αυτός που υπονομεύει τη χώρα του για να κερδίσει οποιουδήποτε είδους πολιτικό όφελος. Θυμάμαι τον κ. Τσίπρα το 2014 να αποθαρρύνει τους επενδυτές για να μην επενδύσουν στην Ελλάδα. Εγώ ποτέ δεν έλεγα κάτι τέτοιο και πάντα θα λέω επενδύστε στην Ελλάδα, επενδύστε στη χώρα μας. Αν θέλετε να το κάνετε μάλιστα περιμένοντας μια πολιτική αλλαγή, όχι μόνον είστε ευπρόσδεκτοι αλλά θα έχετε το πλεονέκτημα να προηγείστε των εξελίξεων. Επομένως υποστηρίζω πως αν οι αγορές αντιδράσουν θετικά στο διάστημα των επόμενων μηνών, αυτό θα ήταν μια πολύ ευπρόσδεκτη εξέλιξη. Επιτρέψτε μου να το εξηγήσω λίγο περισσότερο. Σε μια εποχή που μιλάμε πολύ για τους λαϊκιστές, για τις εξελίξεις στην υπόλοιπη Ευρώπη και τις απειλές της πολιτικής αστάθειας, μπορεί στην Ελλάδα να υπάρξει μια κεντροδεξιά, μετριοπαθής, μεταρρυθμιστική κυβέρνηση με ισχυρή πολιτική εντολή. Αυτό θα σήμαινε ότι δεν υπάρχει πολιτικός κίνδυνος, και ότι ο κίνδυνος πολιτικής αβεβαιότητας έχει θα βγει πια από την εξίσωση. Πιστεύω ότι αυτό είναι σημαντικό για τους διεθνείς επενδυτές καθώς αναλύουν ολόκληρη τη ζώνη του ευρώ.
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
                                 </p>
                             </div>
                         </div>
                         <div class="col-1">
                             <div class="sticky-sidebar">
-                                <div class="sticky-inside">
+                                <div class="sticky-inside position-sticky">
                                     <div class="social-label">SHARE</div>
                                     <div class="article-share mb-4">
                                         <div class="social-link social-fb">
@@ -285,11 +268,10 @@
                     </div>
 
 
-
                     <div class="">
                         <div class="section-header row">
                             <div class="col-12">
-                                <h2 class="section-title h4 font-weight-bold font-alegreya">ΔΙΑΒΑΣΤΕ ΕΠΙΣΗΣ</h2>
+                                <h2 class="section-title h4 font-weight-bold font-alegreya">READ MORE</h2>
                             </div>
                         </div>
                         <div class="row">
@@ -306,7 +288,7 @@
                                     <div class="post-body">
                                         <div class="post-content">Tην επισήμανση αυτή έκανε ο πρόεδρος του ΕΒΕΑ και της Κεντρικής Ενωσης Επιμελητηρίων Ελλάδας, Κωνσταντίνος Μίχαλος</div>
                                         <div class="post-date">
-                                            <i class="fa fa-clock-o" aria-hidden="true"></i> 2 ώρες πριν
+                                            <i class="fa fa-clock-o" aria-hidden="true"></i> 2 hours ago
                                         </div>
                                     </div>
                                 </div>
@@ -328,7 +310,7 @@
                                             <div class="post-body">
                                                 <div class="post-content">Το θέμα της μη περικοπής των συντάξεων από την 1η Ιανουαρίου του 2019 αλλά και...</div>
                                                 <div class="post-date">
-                                                    <i class="fa fa-clock-o" aria-hidden="true"></i> 2 ώρες πριν
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i> 2 hours ago
                                                 </div>
                                             </div>
                                         </div>
@@ -349,7 +331,7 @@
                                             <div class="post-body">
                                                 <div class="post-content">Την πεποίθηση ότι η κυβέρνηση θα επιτύχει τη μη εφαρμογή της περικοπής των συντάξεων από 1/1/2019 εξέφρασε ο υπουργός Επικρατείας και...</div>
                                                 <div class="post-date">
-                                                    <i class="fa fa-clock-o" aria-hidden="true"></i> 2 ώρες πριν
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i> 2 hours ago
                                                 </div>
                                             </div>
                                         </div>
@@ -372,7 +354,7 @@
                                             <div class="post-body">
                                                 <div class="post-content">Για παραλήρημα Καμμένου έκανε λόγο ο Μάκης Βορίδης της ΝΔ με αφορμή τους χαρακτηρισμούς περί «φασισταριών»</div>
                                                 <div class="post-date">
-                                                    <i class="fa fa-clock-o" aria-hidden="true"></i> 2 ώρες πριν
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i> 2 hours ago
                                                 </div>
                                             </div>
 
@@ -389,12 +371,12 @@
                     <div class="sticky-sidebar">
                         <div class="sticky-inside">
                             <div class="banner banner-sidebar mb-3 bg-light text-center">
-                                <img src="img/banners/banner-300x250B.gif" class="img-fluid"/>
+                                <img src="img/banners/banner-300x250B.jpg" class="img-fluid"/>
                             </div>
                             <div class="widget-posts gradient-back text-white bg-light px-3 pb-3 pt-1 shadow mb-3">
 
                                 <div class="widget-header">
-                                    <div class="widget-title">Πρόσφατα</div>
+                                    <div class="widget-title">Latest</div>
                                 </div>
 
                                 <div class="post mb-3 pb-1 border-bottom clearfix">
@@ -402,7 +384,7 @@
                                         <img src="img/posts/thumbnail-1.jpg" width="75" />
                                     </div>
                                     <div class="post-header">
-                                        <div class="post-title h6 font-weight-bold">Η κυβέρνηση «θυσιάζει» τα αντίμετρα για να μην περικόψει τις συντάξεις</div>
+                                        <div class="post-title h6 font-weight-bold">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</div>
                                     </div>
                                 </div>
 
@@ -411,7 +393,7 @@
                                         <img src="img/posts/thumbnail-2.jpg" width="75" />
                                     </div>
                                     <div class="post-header">
-                                        <div class="post-title h6 font-weight-bold">Δ. Τζανακόπουλος: Η κυβέρνηση θα επιτύχει τη μη περικοπή των συντάξεων</div>
+                                        <div class="post-title h6 font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
                                     </div>
                                 </div>
 
@@ -420,16 +402,25 @@
                                         <img src="img/posts/thumbnail-3.jpg" width="75" />
                                     </div>
                                     <div class="post-header">
-                                        <div class="post-title h6 font-weight-bold">Ο Γιουνκέρ «γκρεμίζει» τα όνειρα της κυβέρνησης περί επαναδιαπραγμάτευσης</div>
+                                        <div class="post-title h6 font-weight-bold">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</div>
                                     </div>
                                 </div>
 
-                                <div class="post clearfix">
+                                <div class="post mb-3 pb-1 clearfix border-bottom clearfix">
                                     <div class="post-media float-left mr-3">
                                         <img src="img/posts/thumbnail-4.jpg" width="75" />
                                     </div>
                                     <div class="post-header">
-                                        <div class="post-title h6 font-weight-bold">Καμμένος: «Δε θα συμμετέχουμε σε κυβέρνηση που θα φέρει τη συμφωνία στη Βουλή»</div>
+                                        <div class="post-title h6 font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
+                                    </div>
+                                </div>
+
+                                <div class="post mb-3 pb-1 border-bottom clearfix">
+                                    <div class="post-media float-left mr-3">
+                                        <img src="img/posts/thumbnail-2.jpg" width="75" />
+                                    </div>
+                                    <div class="post-header">
+                                        <div class="post-title h6 font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
                                     </div>
                                 </div>
 
@@ -438,7 +429,7 @@
                                         <img src="img/posts/thumbnail-3.jpg" width="75" />
                                     </div>
                                     <div class="post-header">
-                                        <div class="post-title h6 font-weight-bold">Ο Γιουνκέρ «γκρεμίζει» τα όνειρα της κυβέρνησης περί επαναδιαπραγμάτευσης</div>
+                                        <div class="post-title h6 font-weight-bold">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</div>
                                     </div>
                                 </div>
 
@@ -447,10 +438,12 @@
                                         <img src="img/posts/thumbnail-4.jpg" width="75" />
                                     </div>
                                     <div class="post-header">
-                                        <div class="post-title h6 font-weight-bold">Καμμένος: «Δε θα συμμετέχουμε σε κυβέρνηση που θα φέρει τη συμφωνία στη Βουλή»</div>
+                                        <div class="post-title h6 font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
                                     </div>
                                 </div>
+
                             </div>
+
                             <div class="banner banner-sidebar mb-3 bg-light text-center">
                                 <img src="img/banners/banner-300x250A.jpg" class="img-fluid"/>
                             </div>
@@ -465,94 +458,106 @@
 
 
 
-
+<!--Footer-->
 <footer class="section section-footer bg-dark mb-0">
     <div class="inside">
         <div class="pt-5">
             <div class="container">
                 <div class="footer-logo">
-                    <div class="row no-gutters justify-content-center">
-                        <div class="col-10 col-md-6 col-lg-3 col-xl-2">
+                    <div class="row no-gutters justify-content-center mb-2">
+                        <div class="col-5 col-md-5 col-lg-3 col-xl-2">
                             <img class="img-fluid" src="img/logo.svg" />
                         </div>
                     </div>
+                    <div class="row no-gutters justify-content-center">
+                        <div class="col-12 text-center small">
+                            A free Bootstrap HTML template for your news site. Made with love by <a href="https://www.cookforweb.com/" class="text-white">CookForWeb</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="footer-menus border-top">
+                <div class="footer-menus text-center text-md-left">
 
                     <div class="row">
                         <div class="col-md-3">
-                            <h2>Κατηγορίες</h2>
                             <ul class="footer-menu">
                                 <li>
-                                    <a href="#3">Οικονομία</a>
+                                    <a href="#3">Who we are</a>
                                 </li>
                                 <li>
-                                    <a href="#3">Κοινωνία</a>
+                                    <a href="#3">The founder</a>
                                 </li>
                                 <li>
-                                    <a href="#3">Κόσμος</a>
+                                    <a href="#3">Terms of Service</a>
                                 </li>
                                 <li>
-                                    <a href="#3">Αθλητικά</a>
+                                    <a href="#3">Privacy Policy</a>
                                 </li>
                                 <li>
-                                    <a href="#3">Πολιτισμός</a>
+                                    <a href="#3">Sitemap</a>
+                                </li>
+                                <li>
+                                    <a href="#3">Contact</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-3">
-                            <h2>Χρήσιμοι σύνδεσμοι</h2>
                             <ul class="footer-menu">
                                 <li>
-                                    <a href="#3">Η βραδινή</a>
+                                    <a href="#3">News</a>
                                 </li>
                                 <li>
-                                    <a href="#3">Ο ιδρυτής</a>
+                                    <a href="#3">Economy</a>
                                 </li>
                                 <li>
-                                    <a href="#3">Ταυτότητα</a>
+                                    <a href="#3">World</a>
                                 </li>
                                 <li>
-                                    <a href="#3">Διαφήμιση</a>
+                                    <a href="#3">Politics</a>
                                 </li>
                                 <li>
-                                    <a href="#3">Επικοινωνία</a>
+                                    <a href="#3">Sports</a>
+                                </li>
+                                <li>
+                                    <a href="#3">More</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-3">
-                            <h2>Συντακτική Ομάδα</h2>
                             <ul class="footer-menu">
                                 <li>
-                                    <a href="#3">Βασίλης Χιώτης</a>
+                                    <a href="#3">Email newsletter</a>
                                 </li>
                                 <li>
-                                    <a href="#3">Ιορδάνης Χασαπόπουλος</a>
+                                    <a href="#3">Mobile Applications</a>
                                 </li>
                                 <li>
-                                    <a href="#3">Χρήστος Κώνστας</a>
+                                    <a href="#3">Corporate subscriptions</a>
                                 </li>
                                 <li>
-                                    <a href="#3">Ανδρέας Λοβέρδος</a>
+                                    <a href="#3">Digital subscriptions</a>
                                 </li>
                                 <li>
-                                    <a href="#3">Αντώνης Κατσαρός</a>
+                                    <a href="#3">Education rate</a>
                                 </li>
+                                <li>
+                                    <a href="#3">Work with us</a>
+                                </li>
+                                <li>
                             </ul>
                         </div>
                         <div class="col-md-3 d-flex flex-column justify-content-end">
                             <div class="">
                                 <div class="mb-3">
-                                    Φιλοθέης 12, Γαλάτσι 111 47, Αθήνα
+                                    Address: Akti Kondili 32-38, Piraeus, Greece
                                 </div>
                                 <div class="">
-                                    Τηλ. 211 7054587-92
+                                    Tel +30 210 1234567
                                 </div>
                                 <div class="">
-                                    Fax. 2117054586
+                                    Mob. +30 210 1234567
                                 </div>
                                 <div class="mb-3">
-                                    Email: info@vradini.gr
+                                    Email: info@cookforweb.com
                                 </div>
                                 <div class="">
                                     <i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i>
@@ -564,13 +569,13 @@
                     </div>
                 </div>
 
-                <div class="footer-credits border-top">
+                <div class="footer-credits">
                     <div class="row ">
-                        <div class="text-center col-md-6 text-md-left">
-                            © 2019 | Βραδυνή Εφημερίδα
+                        <div class="text-center col-md-9 text-md-left">
+                            © 2019 | CookForWeb
                         </div>
-                        <div class="col-md-6 text-center text-md-right">
-                            ΤΑΥΤΟΤΗΤΑ - ΔΙΑΦΗΜΙΣΗ - ΕΠΙΚΟΙΝΩΝΙΑ
+                        <div class="col-md-3 text-center text-md-left">
+                            About - Advertisements - Contact
                         </div>
                     </div>
                 </div>
@@ -581,10 +586,10 @@
 </footer>
 
 
+
 <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="js/vendor/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 

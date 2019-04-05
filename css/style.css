@@ -430,6 +430,11 @@ section{
 }
 .article-content p{
     font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+.article-content h3{
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .incontent-articles{
@@ -460,6 +465,12 @@ section{
     top: 50px;
     bottom: 50px;
 }
+@media screen and (min-width: 1400px) {
+    .incontent-articles{
+        margin-left: -5rem;
+    }
+}
+
 .social-label{
     text-align: center;
     letter-spacing: 0.1em;
