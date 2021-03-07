@@ -357,10 +357,10 @@ section{
 }
 
 
-
 .section-footer{
     color: #ffffff;
     font-family: "Alegreya Sans";
+    background-color: #202020
 }
 .section-footer a{
     color: #ffffff;
