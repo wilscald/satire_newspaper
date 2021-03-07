@@ -23,6 +23,8 @@ section{
 .section{
     margin-top: 3rem;
     margin-bottom: 3rem;
+    margin:0 auto;
+    max-width: 900px;
 }
 .section-navigation{
     border-bottom: thin solid #cccccc;
